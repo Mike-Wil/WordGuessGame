@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <title>Hangman
+  </title>
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+            <h1>HANGMAN</h1>      
+            <img id='logo' src='assets/images/SSB4_Logo.png' alt='SuperSmash Bros 4' >
+    </div>
+    <div id="main-container" class="container">
+        <div class ='container main-section' >
+            <!-- <div class='row'>
+                <div class='col-md-12'>
+                    <h1 class='text-center'>HANGMAN</h1>   
+                </div>
+            </div>     
+            <div class='row'>
+                    <div class='col-md-12 text-center'>
+                        <img id='logo' src='assets/images/SSB4_Logo.png' alt='SuperSmash Bros 4' >   
+                    </div>
+                </div>      -->
+            <div class='row'>
+                <div class="col-md-6 col-sm-12 border border-primary text-center" id='splashArt'>
+                        <!-- <div id='splashArt'></div> -->
+                </div>
+                <div class="col-md-6 col-sm-12 border border-primary">
+                    <div class='row'>
+                        <div class="col-md-12 col-sm-12 border-bottom border-danger">
+                            <h1 class='Hangman'>Press any key to begin!</h1>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="col-md-12 col-sm-12">
+                            <h1>Results</h1>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="col-md-12 col-sm-12  border-bottom border-danger">
+                            <h2>
+                               Wins: <span id='wins'>0</span> Losses: <span id='losses'>0</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="col-md-12 col-sm-12">
+                            <h1>New Character!</h1>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="col-md-12 col-sm-12  border-bottom border-danger">
+                            <div id='currWord'></div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="col-md-12 col-sm-12">
+                            <h1>Number of Guesses Remaining</h1>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="col-md-12 col-sm-12  border-bottom border-danger">
+                            <div id='guessesLeft'></div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="col-md-12 col-sm-12">
+                            <h1>
+                                Letters Guessed
+                            </h1>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="col-md-12 col-sm-12">
+                            <div id='userG'></div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
